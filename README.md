@@ -5,20 +5,15 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [SAM2](https://arxiv.org/abs/2408.00714) [[code](https://github.com/facebookresearch/segment-anything-2)]
 
 ## Contents
-- [Video Object Segmentation](#video-object-segmentation)
 - [Medical Video or 3D Segmentation](#medical-video-and-3d-segmentation)
 - [Medical Image Segmentation](#medical-image-segmentation)
+- [Video Object Segmentation](#video-object-segmentation)
 - [Video Camouflage Object Detection](#video-camouflage-object-detection)
 - [Image Camouflage Object Detection](#image-camouflage-object-detection)
 - [Remote Sensing](#remote-sensing)
 - [3D Mesh or Point Cloud Segmentation](#3d-mesh-or-point-cloud-segmentation)
 
 ## Papers/Projects
-### Video Object Segmentation
-- [Video Object Segmentation via SAM 2: The 4th Solution for LSVOS Challenge VOS Track](https://arxiv.org/abs/2408.10125) [[code]()]
-- [The 2nd Solution for LSVOS Challenge RVOS Track: Spatial-temporal Refinement for Consistent Semantic Segmentation](https://arxiv.org/abs/2408.12447) [[code]()]
-- [LSVOS Challenge 3rd Place Report: SAM2 and Cutie based VOS](https://arxiv.org/abs/2408.10469) [[code]()]
-
 ### Medical Video and 3D Segmentation
 - [Segment anything in medical images and videos: Benchmark and deployment](https://arxiv.org/abs/2408.03322) [[code](https://github.com/bowang-lab/MedSAM)]
 - [SAM 2 in Robotic Surgery: An Empirical Evaluation for Robustness and Generalization in Surgical Video Segmentation](https://arxiv.org/abs/2408.04593) [[code]()]
@@ -33,6 +28,11 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) [[code](https://github.com/WZH0120/SAM2-UNet)]
 - [SAM2-Adapter: Evaluating & Adapting Segment Anything 2 in Downstream Tasks: Camouflage, Shadow, Medical Image Segmentation, and More](https://arxiv.org/abs/2408.04579) [[code](http://tianrun-chen.github.io/SAM-Adaptor/)]
 - [Retrieval-augmented Few-shot Medical Image Segmentation with Foundation Models](https://arxiv.org/abs/2408.08813) [[code]()]
+
+### Video Object Segmentation
+- [Video Object Segmentation via SAM 2: The 4th Solution for LSVOS Challenge VOS Track](https://arxiv.org/abs/2408.10125) [[code]()]
+- [The 2nd Solution for LSVOS Challenge RVOS Track: Spatial-temporal Refinement for Consistent Semantic Segmentation](https://arxiv.org/abs/2408.12447) [[code]()]
+- [LSVOS Challenge 3rd Place Report: SAM2 and Cutie based VOS](https://arxiv.org/abs/2408.10469) [[code]()]
   
 ### Video Camouflage Object Detection
 - [Evaluating SAM2's Role in Camouflaged Object Detection: From SAM to SAM2](https://arxiv.org/abs/2407.21596) [[code](https://github.com/luckybird1994/SAMCOD)]
