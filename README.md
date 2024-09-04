@@ -24,6 +24,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [Novel adaptation of video segmentation to 3D MRI: efficient zero-shot knee segmentation with SAM2](https://arxiv.org/abs/2408.04762) [code]
 - [SAM2-PATH: A better segment anything model for semantic segmentation in digital pathology](https://arxiv.org/abs/2408.03651) [[code](https://github.com/simzhangbest/SAM2PATH)]
 - [SAM & SAM 2 in 3D Slicer: SegmentWithSAM Extension for Annotating Medical Images](https://arxiv.org/abs/2408.15224) [[code](https://github.com/mazurowski-lab/SlicerSegmentWithSAM)]
+- [Medical SAM 2: Segment Medical Images As Video Via Segment Anything Model 2](https://arxiv.org/abs/2408.00874) [[code](https://github.com/MedicineToken/Medical-SAM2?tab=readme-ov-file)]
 
 ### Medical Image Segmentation
 - [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) [[code](https://github.com/WZH0120/SAM2-UNet)]
