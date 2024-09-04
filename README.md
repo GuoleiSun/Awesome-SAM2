@@ -6,6 +6,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [SAM](https://arxiv.org/abs/2304.02643) [[code](https://github.com/facebookresearch/segment-anything), [demo](https://segment-anything.com/), [Explaination](https://www.v7labs.com/blog/segment-anything-model-sam))
 
 ## Contents
+- [Survey](#survey)
 - [Medical Video or 3D Segmentation](#medical-video-and-3d-segmentation)
 - [Medical Image Segmentation](#medical-image-segmentation)
 - [Video Object Segmentation](#video-object-segmentation)
@@ -15,6 +16,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [3D Mesh or Point Cloud Segmentation](#3d-mesh-or-point-cloud-segmentation)
 
 ## Papers/Projects
+### Survey
+- [Segment Anything for Videos: A Systematic Survey](https://arxiv.org/abs/2408.08315) [code]
+- [Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey](https://arxiv.org/abs/2408.12889) [code]
+
 ### Medical Video and 3D Segmentation
 - [Segment anything in medical images and videos: Benchmark and deployment](https://arxiv.org/abs/2408.03322) [[code](https://github.com/bowang-lab/MedSAM)]
 - [SAM 2 in Robotic Surgery: An Empirical Evaluation for Robustness and Generalization in Surgical Video Segmentation](https://arxiv.org/abs/2408.04593) [code]
