@@ -32,6 +32,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [Medical SAM 2: Segment Medical Images As Video Via Segment Anything Model 2](https://arxiv.org/abs/2408.00874) [[code](https://github.com/MedicineToken/Medical-SAM2?tab=readme-ov-file)]
 - [Interactive 3D Medical Image Segmentation](https://arxiv.org/abs/2408.02635) [[code](https://github.com/Chuyun-Shen/SAM_2_Medical_3D)]
 - [Biomedical sam 2: Segment anything in biomedical images and videos](https://arxiv.org/abs/2408.03286) [code]
+- [Polyp SAM 2: Advancing Zero shot Polyp Segmentation in Colorectal Cancer Detection](https://arxiv.org/abs/2408.05892) [[code](https://github.com/sajjad-sh33/Polyp-SAM-2)]
 
 ### Medical Image Segmentation
 - [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) [[code](https://github.com/WZH0120/SAM2-UNet)]
