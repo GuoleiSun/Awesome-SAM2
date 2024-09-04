@@ -1,5 +1,5 @@
 # Awesome-SAM2 ( Segment Anything in Images and Videos)
-This repo aims to include materials (papers, codes, slides) about [SAM2](https://arxiv.org/abs/2408.00714) (segment anything in images and videos). We are continuously improving the project. Welcome to PR the works (papers, repos) that are missed.
+This repo aims to include materials (papers, codes, slides) about [SAM2](https://arxiv.org/abs/2408.00714) (segment anything in images and videos), a vision foundation model released by Meta AI. We are continuously improving the project. Welcome to PR the works (papers, repos) that are missed.
 
 ## SAM2
 - [SAM2](https://arxiv.org/abs/2408.00714) [[code](https://github.com/facebookresearch/segment-anything-2), [demo](https://sam2.metademolab.com/), [Explaination](https://www.sievedata.com/blog/meta-segment-anything-2-sam2-introduction)]
