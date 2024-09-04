@@ -3,6 +3,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 
 ## SAM2
 - [SAM2](https://arxiv.org/abs/2408.00714) [[code](https://github.com/facebookresearch/segment-anything-2), [demo](https://sam2.metademolab.com/), [Explaination](https://www.sievedata.com/blog/meta-segment-anything-2-sam2-introduction)]
+- [SAM](https://arxiv.org/abs/2304.02643) [[code](https://github.com/facebookresearch/segment-anything), [demo](https://segment-anything.com/), [Explaination](https://www.v7labs.com/blog/segment-anything-model-sam))
 
 ## Contents
 - [Medical Video or 3D Segmentation](#medical-video-and-3d-segmentation)
