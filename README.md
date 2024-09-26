@@ -14,6 +14,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [Image Camouflage Object Detection](#image-camouflage-object-detection)
 - [Remote Sensing](#remote-sensing)
 - [3D Mesh or Point Cloud Segmentation](#3d-mesh-or-point-cloud-segmentation)
+- [Applications](#applications)
 
 ## Papers/Projects
 ### Survey
@@ -52,8 +53,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) [[code](https://github.com/WZH0120/SAM2-UNet)]
 - [SAM2-Adapter: Evaluating & Adapting Segment Anything 2 in Downstream Tasks: Camouflage, Shadow, Medical Image Segmentation, and More](https://arxiv.org/abs/2408.04579) [[code](http://tianrun-chen.github.io/SAM-Adaptor/)]
 
+### Applications
+- [Towards Robust Automation of Surgical Systems via Digital Twin-based Scene Representations from Foundation Models](https://arxiv.org/pdf/2409.13107) [[code](https://github.com/WZH0120/SAM2-UNet)]
 ### Remote Sensing
 - [Prompt-Based Segmentation at Multiple Resolutions and Lighting Conditions using Segment Anything Model 2](https://arxiv.org/abs/2408.06970) [code]
 
 ### 3D Mesh or Point Cloud Segmentation
-- [Segment Any Mesh: Zero-shot Mesh Part Segmentation via Lifting Segment Anything 2 to 3D](https://arxiv.org/abs/2408.13679) [[code](https://github.com/gtangg12/samesh)]
+- [Segment Any Mesh: Zero-shot Mesh Part Segmentation via Lifting Segment Anything 2 to 3D](https://arxiv.org/abs/2408.13679) [code]
