@@ -42,6 +42,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [SAM2-Adapter: Evaluating & Adapting Segment Anything 2 in Downstream Tasks: Camouflage, Shadow, Medical Image Segmentation, and More](https://arxiv.org/abs/2408.04579) [[code](http://tianrun-chen.github.io/SAM-Adaptor/)]
 - [Retrieval-augmented Few-shot Medical Image Segmentation with Foundation Models](https://arxiv.org/abs/2408.08813) [code]
 - [Self-Prompting Polyp Segmentation in Colonoscopy using Hybrid Yolo-SAM 2 Model](https://arxiv.org/abs/2409.09484) [[code](https://github.com/sajjad-sh33/YOLO_SAM2)]
+- [A multi-task learning model for clinically interpretable sesamoiditis grading](https://www.sciencedirect.com/science/article/pii/S0010482524012642) [code]
 
 ### Tracking or Video Object Segmentation
 - [Video Object Segmentation via SAM 2: The 4th Solution for LSVOS Challenge VOS Track](https://arxiv.org/abs/2408.10125) [code]
@@ -64,3 +65,4 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 
 ### Applications
 - [Towards Robust Automation of Surgical Systems via Digital Twin-based Scene Representations from Foundation Models](https://arxiv.org/pdf/2409.13107) [code]
+- [Helpful DoggyBot: Open-World Object Fetching using Legged Robots and Vision-Language Models](https://arxiv.org/pdf/2410.00231) [code](https://helpful-doggybot.github.io/)
