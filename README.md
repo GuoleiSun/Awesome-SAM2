@@ -49,6 +49,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [The 2nd Solution for LSVOS Challenge RVOS Track: Spatial-temporal Refinement for Consistent Semantic Segmentation](https://arxiv.org/abs/2408.12447) [code]
 - [LSVOS Challenge 3rd Place Report: SAM2 and Cutie based VOS](https://arxiv.org/abs/2408.10469) [code]
 - [Masks and Boxes: Combining the Best of Both Worlds for Multi-Object Tracking](https://arxiv.org/pdf/2409.14220) [code]
+- [Unleashing the Temporal-Spatial Reasoning Capacity of GPT for Training-Free Audio and Language Referenced Video Object Segmentation](https://arxiv.org/pdf/2408.15876) [[code](https://github.com/appletea233/AL-Ref-SAM2)]
   
 ### Video Camouflage Object Detection
 - [Evaluating SAM2's Role in Camouflaged Object Detection: From SAM to SAM2](https://arxiv.org/abs/2407.21596) [[code](https://github.com/luckybird1994/SAMCOD)]
