@@ -35,7 +35,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [Biomedical sam 2: Segment anything in biomedical images and videos](https://arxiv.org/abs/2408.03286) [code]
 - [Polyp SAM 2: Advancing Zero shot Polyp Segmentation in Colorectal Cancer Detection](https://arxiv.org/abs/2408.05892) [[code](https://github.com/sajjad-sh33/Polyp-SAM-2)]
 - [Surgical SAM 2: Real-time Segment Anything in Surgical Video by Efficient Frame Pruning](https://arxiv.org/pdf/2408.07931) [[code](https://github.com/jinlab-imvr/Surgical-SAM-2)]
-- [SAM-OCTA2: Layer Sequence OCTA Segmentation with Fine-tuned Segment Anything Model 2] [[code](https://github.com/ShellRedia/SAM-OCTA2)]
+- [SAM-OCTA2: Layer Sequence OCTA Segmentation with Fine-tuned Segment Anything Model 2](https://arxiv.org/pdf/2409.09286) [[code](https://github.com/ShellRedia/SAM-OCTA2)]
 
 ### Medical Image Segmentation
 - [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) [[code](https://github.com/WZH0120/SAM2-UNet)]
