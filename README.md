@@ -11,18 +11,30 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [Surveys & Reviews](#surveys--reviews)
 - [Traditional Segmentation Tasks](#traditional-segmentation)
     - [Image Segmentation](#image-segmentation)
-    - [Tracking or Video Object Segmentation](#tracking-or-video-object-segmentation)
-- [Medical Segmentation](#medical-domain)
+        - [Segmentation Applications](#segmentation-applications)
+    - [Video Segmentation](#video-segmentation)
+        - [Referring Video Object Segmentation (RVOS)](#referring-video-object-segmentation-rvos)
+        - [Video Object Segmentation (+ Tracking)](#video-object-segmentation--tracking)
+    - [Other Video Tasks](#other-video-tasks)
+- [Medical Domain](#medical-domain)
     - [Medical Video & 3D Segmentation](#medical-video--3d-segmentation)
     - [Medical Image Segmentation](#medical-image-segmentation)
 - [Camouflaged Object Detection (COD)](#camouflaged-object-detection-cod)
   - [Video COD](#video-cod)
   - [Image COD](#image-cod)
-- [3D Mesh or Point Cloud Segmentation](#3d-mesh-or-point-cloud-segmentation)
-- [Image or Video Editing](#image-or-video-editing)
+- [Audio-visual segmentation (AVS)](#audio-visual-segmentation-avs)
 - [Remote Sensing](#remote-sensing)
-- [Simultaneous Localization and Mapping](#simultaneous-localization-and-mapping)
+- [Mesh or Point Cloud Segmentation](#mesh-or-point-cloud-segmentation)
+    - [Mesh or Point Cloud Segmentation](#mesh-or-point-cloud-segmentation)
+    - [Mesh or Point Cloud Reconstruction](#mesh-or-point-cloud-reconstruction)
+    - [Other 3D Applications](#other-3d-applications)
+- [Image or Video Generation & Editing](#image-or-video-generation--editing)
+- [Simultaneous Localization and Mapping (SLAM)](#simultaneous-localization-and-mapping-slam)
 - [Light Field Segmentation](#light-field-segmentation)
+- [Robotics](#robotics)
+- [Datasets](#datasets)
+    - [Used for Data Augmentation (/Tool)](#used-for-data-augmentation-tool)
+- [Performance Evaluations](#performance-evaluations)
 - [Unique Applications](#unique-applications)
 
 ## Papers/Projects
@@ -41,8 +53,16 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | :--- | :--- | :---: |
 | 2024.10 | [Towards Natural Image Matting in the Wild via Real-Scenario Prior](https://arxiv.org/abs/2410.06593) | [🔗 Code](https://github.com/XiaRho/SEMat) |
 | 2024.11 | [CorrCLIP: Reconstructing Correlations in CLIP with Off-the-Shelf Foundation Models for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2411.10086) | NA |
+| 2025.03 | [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/pdf/2503.06520) | [🌐Project page](https://github.com/dvlab-research/Seg-Zero) | 
+##### Segmentation Applications
+| Release | Title | Code |
+| :--- | :--- | :---: |
+| 2025.03 | [Unveiling the Potential of Segment Anything Model 2 for RGB-Thermal Semantic Segmentation with Language Guidance](https://arxiv.org/pdf/2503.02581) | [🔗 Code](https://github.com/iAsakiT3T/SHIFNet) | 
+| 2025.03 | [MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation](https://arxiv.org/pdf/2503.06700) | 🕒Soon |
+| 2025.03 | [Segment Any-Quality Images with Generative Latent Space Enhancement](https://arxiv.org/pdf/2503.12507) | NA |
 
-#### Referring Video Object Segmentation (RVOS) 
+#### Video Segmentation
+##### Referring Video Object Segmentation (RVOS) 
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.08| [Unleashing the Temporal-Spatial Reasoning Capacity of GPT for Training-Free Audio and Language Referenced Video Object Segmentation](https://arxiv.org/abs/2408.15876) | [🔗 Code](https://github.com/appletea233/AL-Ref-SAM2) |
@@ -51,7 +71,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.02| [Text-Promtable propagation for referring medical image sequence segmentation](https://arxiv.org/abs/2502.11093)| NA|
 
 
-#### Video Object Segmentation (+ Tracking)
+##### Video Object Segmentation (+ Tracking)
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.08| [Video Object Segmentation via SAM 2: The 4th Solution for LSVOS Challenge VOS Track](https://arxiv.org/abs/2408.10125) | NA |
@@ -63,11 +83,18 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [There is no SAMantics! Exploring SAM as a Backbone for Visual Understanding Tasks](https://arxiv.org/abs/2411.15288) | [🔗 Code](https://github.com/miquel-espinosa/samantics) |
 |2024.12|[VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLMs](https://arxiv.org/abs/2501.00599)|[🌐Project page](https://damo-nlp-sg.github.io/VideoRefer/)|
 | 2025.02| [Towards Fine-grained Interactive Segmentation in Images and Videos](https://arxiv.org/pdf/2502.09660)| NA |
+| 2025.03 | [WeGen: A Unified Model for Interactive Multimodal Generation as We Chat](https://arxiv.org/pdf/2503.01115) | [🔗 Code](https://github.com/hzphzp/WeGen)|
+| 2025.03 | [WeakMedSAM: Weakly-Supervised Medical Image Segmentation via SAM with Sub-Class Exploration and Prompt Affinity Mining](https://arxiv.org/pdf/2503.04106) | [🔗 Code](https://github.com/wanghr64/WeakMedSAM)|
+
+#### Other Video Tasks
+| Release | Title | Code |
+| :--- | :--- | :---: |
+| 2025.03 | [MMCD: Memory-Based Multimodal Change Detection](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889397) | NA |
+| 2025.03 | [EgoSplat: Open-Vocabulary Egocentric Scene Understanding with Language Embedded 3D Gaussian Splatting](https://arxiv.org/pdf/2503.11345) | 🕒Soon |
 
 ### Medical Domain
 
 #### Medical Video & 3D Segmentation
-
 
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -86,6 +113,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [Phase-Informed Tool Segmentation for Manual Small-Incision Cataract Surgery](https://arxiv.org/abs/2411.16794) | NA |
 | 2025.02| [SASVi - Segment Any Surgical Video](https://arxiv.org/abs/2502.09653)| [🔗 Code](https://github.com/MECLabTUDA/SASVi) |
 | 2025.02| [Less is More? Revisiting the Importance of Frame Rate in Real-Time Zero-Shot Surgical Video Segmentation ](https://arxiv.org/pdf/2502.20934)| | 
+| 2025.03 | [SurgiSAM2: Fine-tuning a foundational model for surgical video anatomy segmentation and detection](https://arxiv.org/pdf/2503.03942) | [🔗 Code(& dataset)](https://github.com/Devanish31/SurgiSAM2) |
+| 2025.03 | [Surgical Gaussian Surfels: Highly Accurate Real-time Surgical Scene Rendering](https://arxiv.org/pdf/2503.04079) | [🔗 Code](https://github.com/aloma85/SurgicalGaussianSurfels) |
+| 2025.03 | [Rethinking Few-Shot Medical Image Segmentation by SAM2: A Training-Free Framework with Augmentative Prompting and Dynamic Matching](https://arxiv.org/pdf/2503.04826) | NA |
+| 2025.03 | [Self-Prompting Driven SAM2 for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889344) | NA |
 
 #### Medical Image Segmentation
 
@@ -128,9 +159,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | :--- | :--- | :---: |
 | 2024.11| [DED-SAM: Adapting Segment Anything Model 2 for Dual Encoder-Decoder Change Detection](https://ieeexplore.ieee.org/abstract/document/10741350) | NA |
 | 2025.01| [Prompt-Based Segmentation at Multiple Resolutions and Lighting Conditions using Segment Anything Model 2](https://arxiv.org/abs/2408.06970) | NA |
+| 2025.03| [Customized SAM 2 for Referring Remote Sensing Image Segmentation](https://arxiv.org/pdf/2503.07266) | NA |
 
 ### Mesh or Point Cloud Segmentation
-
 #### Mesh or Point Cloud Segmentation
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -145,6 +176,13 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [Updating Dynamic 3D Scene Graphs from Egocentric Observations](https://arxiv.org/pdf/2411.19162)| [🌐Project page](https://behretj.github.io/LostAndFound/)| 
 | 2025.02| [Inter3D: A Benchmark and Strong Baseline for Human-Interactive 3D Object Reconstruction](https://arxiv.org/pdf/2502.14004)| [🔗 Code](https://github.com/Inter3D-ui/Inter3D?tab=readme-ov-file)|
 
+#### Other 3D Applications
+| Release | Title | Code |
+| :--- | :--- | :---: |
+| 2025.03| [LP-Gaussians: Learnable Parametric Gaussian Splatting for Efficient Dynamic Reconstruction of Single-View Scenes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888277) | [🌐Project page](https://github.com/LPGaussians)|
+| 2025.03 | [DecoupledGaussian: Object-Scene Decoupling for Physics-Based Interaction](https://arxiv.org/pdf/2503.05484) | [🌐Project page](https://wangmiaowei.github.io/DecoupledGaussian.github.io/) |
+| 2025.03 | [Free Your Hands: Lightweight Relightable Turntable Capture Pipeline](https://arxiv.org/pdf/2503.05511) | NA |
+| 2025.03 | [WildSeg3D: Segment Any 3D Objects in the Wild from 2D Images](https://arxiv.org/pdf/2503.08407) | 🕒Soon | 
 
 ### Image or Video Generation & Editing
 | Release | Title | Code |
@@ -157,6 +195,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.01 | [MovieCharacter: A Tuning-Free Framework for Controllable Character Video Synthesis](https://arxiv.org/abs/2410.20974) | [🌐Project page](https://moviecharacter.github.io/) |
 | 2025.01 |[BlobGEN-Vid: Compositional Text-to-Video Generation with Blob Video Representations](https://arxiv.org/abs/2501.07647) | [🌐Project page](https://blobgen-vid2.github.io/)|
 | 2025.03| [TransVDM: Motion-Constrained Video Diffusion Model for Transparent Video Synthesis](https://arxiv.org/pdf/2502.19454)| NA|
+| 2025.03 | [Towards More Accurate Personalized Image Generation: Addressing Overfitting and Evaluation Bias](https://arxiv.org/pdf/2503.06632) | [🔗 Code](https://github.com/Mingxiao-Li/Towards-More-Accurate-Personalized-Image-Generation) | 
+| 2025.03 | [Unified Dense Prediction of Video Diffusion](https://arxiv.org/pdf/2503.09344) | NA |
+| 2025.03 | [DreamInsert: Zero-Shot Image-to-Video Object Insertion from A Single Image](https://arxiv.org/pdf/2503.10342) | 🕒Soon |
 
 
 ### Simultaneous Localization and Mapping (SLAM)
@@ -178,6 +219,11 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.02| [Map Space Belief Prediction for Manipulation-Enhanced Mapping](https://arxiv.org/pdf/2502.20606)| (To be released)|
 | 2025.02| [Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids](https://arxiv.org/pdf/2502.20396)| [🌐Project page](https://toruowo.github.io/recipe)|
 | 2025.03| [DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping](https://arxiv.org/pdf/2502.20900)| [🌐Project page](https://dexgraspvla.github.io/)|
+| 2025.03 | [Autonomous Dissection in Robotic Cholecystectomy](https://arxiv.org/pdf/2503.00666) | NA |
+| 2025.03 | [MetaFold: Language-Guided Multi-Category Garment Folding Framework via Trajectory Generation and Foundation Model](https://arxiv.org/pdf/2503.08372) | [🌐Project page](https://meta-fold.github.io/) |
+| 2025.03 | [LuciBot: Automated Robot Policy Learning from Generated Videos](https://arxiv.org/pdf/2503.09871) | [🌐Project page](https://lucibot.github.io/) |
+| 2025.03 | [IMPACT : Intelligent Motion Planning with Acceptable Contact Trajectories via Vision-Language Models](https://arxiv.org/pdf/2503.10110) | [🌐Project page](https://impact-planning.github.io/) |
+| 2025.03 | [VISO-Grasp: Vision-Language Informed Spatial Object-centric 6-DoF Active View Planning and Grasping in Clutter and Invisibility](https://arxiv.org/pdf/2503.12609) | NA |
 
 ### Datasets 
 | Release | Title | Code |
@@ -185,6 +231,25 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.02| [SurgPose: a Dataset for Articulated Robotic Surgical Tool Pose Estimation and Tracking](https://arxiv.org/abs/2502.11534)| [🌐Project page](https://surgpose.github.io/)|
 | 2025.02| [The PanAf-FGBG Dataset: Understanding the Impact of Backgrounds in Wildlife Behaviour Recognition](https://arxiv.org/pdf/2502.21201)| NA|
 | 2025.02| [Picking the Cream of the Crop:Visual-Centric Data Selection with Collaborative Agents](https://arxiv.org/pdf/2502.19917)| [🔗 Code](https://github.com/HITsz-TMG/ViSA)|
+| 2025.03| [Phantom: Training Robots Without Robots Using Only Human Videos](https://arxiv.org/pdf/2503.00779) | [🌐Project page](https://phantom-human-videos.github.io/)|
+| 2025.03| [Scalable Real2Sim: Physics-Aware Asset Generation Via Robotic Pick-and-Place Setups](https://arxiv.org/pdf/2503.00370) | [🌐Project page](https://scalable-real2sim.github.io/)|
+| 2025.03 | [What Are You Doing? A Closer Look at Controllable Human Video Generation](https://arxiv.org/pdf/2503.04666) | [🔗 Code](https://github.com/google-deepmind/wyd-benchmark) |
+| 2025.03| [Instrument-Splatting: Controllable Photorealistic Reconstruction of Surgical Instruments Using Gaussian Splatting](https://arxiv.org/pdf/2503.04082) | 🕒Soon |
+| 2025.03 | [Referring to Any Person](https://arxiv.org/pdf/2503.08507) | [🌐Project page](https://wangyian-me.github.io/LuciBot/) | 
+| 2025.03 | [AUTV: Creating Underwater Video Datasets with Pixel-wise Annotations](https://arxiv.org/pdf/2503.12828) | NA |
+
+#### Used for Data Augmentation (/Tool)
+| Release | Title | Code |
+| :--- | :--- | :---: |
+|2025.03| [A Taxonomy for Evaluating Generalist Robot Policies](https://arxiv.org/pdf/2503.01238)| [🌐Project page](https://stargen-taxonomy.github.io/)|
+|2025.03|[CRESTE: Scalable Mapless Navigation with Internet Scale Priors and Counterfactual Guidance](https://arxiv.org/pdf/2503.03921)|[🌐Project page](https://amrl.cs.utexas.edu/creste/)|
+|2025.03| [Shaken, Not Stirred: A Novel Dataset for Visual Understanding of Glasses in Human-Robot Bartending Tasks](https://arxiv.org/pdf/2503.04308) | [🌐Project page](https://gajdosech2.github.io/GlassNICOLDataset/)|
+| 2025.03 | [YOLOE: Real-Time Seeing Anything](https://arxiv.org/pdf/2503.07465) | [🔗 Code](https://github.com/THU-MIG/yoloe) |
+| 2025.03 | [VACE: All-in-One Video Creation and Editing](https://arxiv.org/pdf/2503.07598) | [🌐Project page](https://ali-vilab.github.io/VACE-Page/) |
+| 2025.03 | [V2M4: 4D Mesh Animation Reconstruction from a Single Monocular Video](https://arxiv.org/pdf/2503.09631)| [🌐Project page](https://windvchen.github.io/V2M4/) |
+| 2025.03 | [Better Together: Unified Motion Capture and 3D Avatar Reconstruction](https://arxiv.org/pdf/2503.09293) | NA |
+| 2025.03 | [CINEMA: Coherent Multi-Subject Video Generation via MLLM-Based Guidance](https://arxiv.org/pdf/2503.10391) | NA |
+| 2025.03 | [RePerformer: Immersive Human-centric Volumetric Videos from Playback to Photoreal Reperformance ](https://arxiv.org/pdf/2503.12242) | [🌐Project page](https://moqiyinlun.github.io/Reperformer/) |
 
 ### Performance Evaluations 
 | Release | Title | Code |
@@ -203,3 +268,4 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.10| [Next Best Sense: Guiding Vision and Touch with FisherRF for 3D Gaussian Splatting](https://arxiv.org/abs/2410.04680) | [🔗 Code](https://github.com/armlabstanford/NextBestSense) |
 | 2025.01| [Zero-Shot Pupil Segmentation with SAM 2: A Case Study of Over 14 Million Images](https://arxiv.org/abs/2410.08926) | [📊Data](https://zenodo.org/records/13911636) |
 | 2025.02| [Best Foot Forward: Robust Foot Reconstruction in-the-wild](https://arxiv.org/pdf/2502.20511)| |
+| 2025.03| [ROCKET-2: Steering Visuomotor Policy via Cross-View Goal Alignment](https://arxiv.org/pdf/2503.02505)| [🌐Project page](https://craftjarvis.github.io/ROCKET-2/) |
