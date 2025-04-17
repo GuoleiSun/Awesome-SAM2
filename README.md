@@ -15,6 +15,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
     - [Video Segmentation](#video-segmentation)
         - [Referring Video Object Segmentation (RVOS)](#referring-video-object-segmentation-rvos)
         - [Video Object Segmentation (+ Tracking)](#video-object-segmentation--tracking)
+        - [Video Semantic Segmentation](#video-semantic-segmentation)
     - [Other Video Tasks](#other-video-tasks)
 - [Medical Domain](#medical-domain)
     - [Medical Video & 3D Segmentation](#medical-video--3d-segmentation)
@@ -45,6 +46,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.07 | [Segment Anything for Videos: A Systematic Survey](https://arxiv.org/abs/2408.08315) | [📖 Repo](https://github.com/983632847/SAM-for-Videos) |
 | 2024.08 | [Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey](https://arxiv.org/abs/2408.12889) | [📖 Repo](https://github.com/YichiZhang98/SAM4MIS) |
 | 2024.10 | [On Efficient Variants of Segment Anything Model: A Survey](https://arxiv.org/abs/2410.04960) | NA |
+| 2025.03 | [SAM2 for Image and Video Segmentation: A Comprehensive Survey](https://arxiv.org/pdf/2503.12781)  | NA |
 <!-- | 2023.12 | [Large Scale Foundation Models for Intelligent Manufacturing Applications: A Survey](https://arxiv.org/abs/2312.06718) | [📖 Repo](https://github.com/NEUFS-MA/LSFMs-IM) | -->
 
 ### Traditional Segmentation
@@ -54,6 +56,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.10 | [Towards Natural Image Matting in the Wild via Real-Scenario Prior](https://arxiv.org/abs/2410.06593) | [🔗 Code](https://github.com/XiaRho/SEMat) |
 | 2024.11 | [CorrCLIP: Reconstructing Correlations in CLIP with Off-the-Shelf Foundation Models for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2411.10086) | NA |
 | 2025.03 | [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/pdf/2503.06520) | [🌐Project page](https://github.com/dvlab-research/Seg-Zero) | 
+| 2025.04 | [MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation](https://arxiv.org/pdf/2503.23786) | [🔗 Code](https://github.com/sevenshr/MGD-SAM2)|
+
+
 ##### Segmentation Applications
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -69,6 +74,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [SAMWISE: Infusing wisdom in SAM2 for Text-Driven Video Segmentation](https://arxiv.org/abs/2411.17646) | [🔗 Code](https://github.com/ClaudiaCuttano/SAMWISE) |
 | 2024.11| [SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory](https://arxiv.org/abs/2411.11922) | [🔗 Code](https://github.com/yangchris11/samurai) |
 | 2025.02| [Text-Promtable propagation for referring medical image sequence segmentation](https://arxiv.org/abs/2502.11093)| NA|
+| 2025.04| [MovSAM: A Single-image Moving Object Segmentation Framework Based on Deep Thinking](https://arxiv.org/pdf/2504.06863) | [🔗 Code](https://github.com/IRMVLab/MovSAM)|
 
 
 ##### Video Object Segmentation (+ Tracking)
@@ -85,6 +91,14 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.02| [Towards Fine-grained Interactive Segmentation in Images and Videos](https://arxiv.org/pdf/2502.09660)| NA |
 | 2025.03 | [WeGen: A Unified Model for Interactive Multimodal Generation as We Chat](https://arxiv.org/pdf/2503.01115) | [🔗 Code](https://github.com/hzphzp/WeGen)|
 | 2025.03 | [WeakMedSAM: Weakly-Supervised Medical Image Segmentation via SAM with Sub-Class Exploration and Prompt Affinity Mining](https://arxiv.org/pdf/2503.04106) | [🔗 Code](https://github.com/wanghr64/WeakMedSAM)|
+| 2025.03 | [Segment Any Motion in Videos](https://arxiv.org/pdf/2503.22268) | [🌐Project page](https://motion-seg.github.io/)|
+| 2025.04 | [SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation](https://arxiv.org/pdf/2504.04519)| [🔗 Code](https://github.com/TripleJoy/SAM2MOT) |
+| 2025.04 | [DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency](https://arxiv.org/pdf/2504.12080) | [🔗 Code](https://github.com/zaplm/DC-SAM) |
+
+##### Video Semantic Segmentation
+| Release | Title | Code |
+| :--- | :--- | :---: |
+| 2025.03| [MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation](https://arxiv.org/pdf/2503.06700) | [🔗 Code](https://github.com/Chenfei-Liao/MemorySAM) |
 
 #### Other Video Tasks
 | Release | Title | Code |
@@ -117,6 +131,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.03 | [Surgical Gaussian Surfels: Highly Accurate Real-time Surgical Scene Rendering](https://arxiv.org/pdf/2503.04079) | [🔗 Code](https://github.com/aloma85/SurgicalGaussianSurfels) |
 | 2025.03 | [Rethinking Few-Shot Medical Image Segmentation by SAM2: A Training-Free Framework with Augmentative Prompting and Dynamic Matching](https://arxiv.org/pdf/2503.04826) | NA |
 | 2025.03 | [Self-Prompting Driven SAM2 for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889344) | NA |
+| 2025.04 | [RP-SAM2: Refining Point Prompts for Stable Surgical Instrument Segmentation](https://arxiv.org/pdf/2504.07117) | [🔗 Code](https://github.com/BioMedIA-MBZUAI/RP-SAM2)|
 
 #### Medical Image Segmentation
 
@@ -135,6 +150,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [Zero-shot capability of SAM-family models for bone segmentation in CT scans](https://arxiv.org/abs/2411.08629) | NA |
 | 2024.11| [SAM-I2I: Unleash the Power of Segment Anything Model for Medical Image Translation](https://arxiv.org/abs/2411.12755) | NA |
 | 2024.12| [Medical SAM 2: Segment Medical Images As Video Via Segment Anything Model 2](https://arxiv.org/abs/2408.00874) | [🔗 Code](https://github.com/MedicineToken/Medical-SAM2?tab=readme-ov-file) |
+| 2025.03| [Self-Prompting Driven SAM2 for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10889344) | NA |
 
 ### Camouflaged Object Detection (COD)
 #### Video COD
@@ -142,6 +158,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | :--- | :--- | :---: |
 | 2024.07| [Evaluating SAM2's Role in Camouflaged Object Detection: From SAM to SAM2](https://arxiv.org/abs/2407.21596) | [🔗 Code](https://github.com/luckybird1994/SAMCOD) |
 | 2024.09 | [When SAM2 Meets Video Camouflaged Object Segmentation: A Comprehensive Evaluation and Adaptation](https://arxiv.org/abs/2409.18653) | [🔗 Code](https://github.com/zhoustan/SAM2-VCOS) |
+| 2025.03 | [CamSAM2: Segment Anything Accurately in Camouflaged Videos](https://arxiv.org/pdf/2503.19730) | [🔗 Code](https://github.com/zhoustan/CamSAM2)|
+| 2025.04 | [CamoSAM2: Motion-Appearance Induced Auto-Refining Prompts for Video Camouflaged Object Detection](https://arxiv.org/pdf/2504.00375) | NA |
 
 #### Image COD
 | Release | Title | Code |
