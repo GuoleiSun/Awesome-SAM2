@@ -11,6 +11,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 - [Surveys & Reviews](#surveys--reviews)
 - [Traditional Segmentation Tasks](#traditional-segmentation)
     - [Image Segmentation](#image-segmentation)
+    - [Few-Shot Segmentation](#few-shot-segmentation)
         - [Segmentation Applications](#segmentation-applications)
     - [Video Segmentation](#video-segmentation)
         - [Referring Video Object Segmentation (RVOS)](#referring-video-object-segmentation-rvos)
@@ -58,6 +59,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.03 | [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/pdf/2503.06520) | [🌐Project page](https://github.com/dvlab-research/Seg-Zero) | 
 | 2025.04 | [MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation](https://arxiv.org/pdf/2503.23786) | [🔗 Code](https://github.com/sevenshr/MGD-SAM2)|
 
+#### Few-Shot Segmentation
+| Release | Title | Code |
+| :--- | :--- | :---: |
+| 2025.05 | [SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation](https://arxiv.org/abs/2505.21795) | [🔗 Code](https://github.com/ClaudiaCuttano/SANSA) |
 
 ##### Segmentation Applications
 | Release | Title | Code |
