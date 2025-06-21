@@ -15,7 +15,6 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
         - [Other Image Tasks](#other-image-tasks)
     - [Video Segmentation](#video-segmentation)
         - [Referring/Reasoning Video Object Segmentation](#referringreasoning-video-object-segmentation)
-        - [Video Semantic Segmentation](#video-semantic-segmentation)
     - [Other Video Tasks](#other-video-tasks)
 - [Medical Domain](#medical-domain)
     - [Medical Video & 3D Segmentation](#medical-video--3d-segmentation)
@@ -89,9 +88,16 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory](https://arxiv.org/abs/2411.11922) | [🔗 Code](https://github.com/yangchris11/samurai) |
 | 2025.02| [Text-Promtable propagation for referring medical image sequence segmentation](https://arxiv.org/abs/2502.11093)| NA|
 | 2025.04| [MovSAM: A Single-image Moving Object Segmentation Framework Based on Deep Thinking](https://arxiv.org/pdf/2504.06863) | [🔗 Code](https://github.com/IRMVLab/MovSAM)|
+| 2025.05 | [Vision Foundation Model Embedding-Based Semantic Anomaly Detection](https://arxiv.org/pdf/2505.07998) | NA |
+| 2026.05 | [Synthetic Data Pre-Training for Runway Damage Assessment](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13459/134590Z/Synthetic-data-pre-training-for-runway-damage-assessment/10.1117/12.3053672.short) | NA |
+| 2026.05 | [Single-sided estimates of surface breaking porosity in additive manufacturing using multiple inspection techniques](https://www-spiedigitallibrary-org.remotexs.ntu.edu.sg/conference-proceedings-of-spie/13470/1347013/Single-sided-estimates-of-surface-breaking-porosity-in-additive-manufacturing/10.1117/12.3053745.full) | NA |
 
 
-##### Video Object Segmentation (+ Tracking)
+
+
+
+#### Video Segmentation
+
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.08| [Video Object Segmentation via SAM 2: The 4th Solution for LSVOS Challenge VOS Track](https://arxiv.org/abs/2408.10125) | NA |
@@ -107,13 +113,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.03 | [Pseudo-LiDAR With Two-Dimensional Instance for Monocular Three-Dimensional Object Tracking](https://ieeexplore.ieee.org/document/10918939) | NA |
 | 2025.03 | [WeakMedSAM: Weakly-Supervised Medical Image Segmentation via SAM with Sub-Class Exploration and Prompt Affinity Mining](https://arxiv.org/pdf/2503.04106) | [🔗 Code](https://github.com/wanghr64/WeakMedSAM)|
 | 2025.03 | [Segment Any Motion in Videos](https://arxiv.org/pdf/2503.22268) | [🌐Project page](https://motion-seg.github.io/)|
+| 2025.03| [MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation](https://arxiv.org/pdf/2503.06700) | [🔗 Code](https://github.com/Chenfei-Liao/MemorySAM) |
 | 2025.04 | [SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation](https://arxiv.org/pdf/2504.04519)| [🔗 Code](https://github.com/TripleJoy/SAM2MOT) |
 | 2025.04 | [DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency](https://arxiv.org/pdf/2504.12080) | [🔗 Code](https://github.com/zaplm/DC-SAM) |
 
-##### Video Semantic Segmentation
-| Release | Title | Code |
-| :--- | :--- | :---: |
-| 2025.03| [MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation](https://arxiv.org/pdf/2503.06700) | [🔗 Code](https://github.com/Chenfei-Liao/MemorySAM) |
 
 ##### Referring/Reasoning Video Object Segmentation 
 | Release | Title | Code |
