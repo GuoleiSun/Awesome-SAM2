@@ -146,6 +146,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.05 | [Research on a traffic flow statistical algorithm based on YBOVDT and SAM2](https://www.nature.com/articles/s41598-025-04336-2) | [📊 Data](https://github.com/kill7893/traffic) |
 | 2025.06 | [ConMo: Controllable Motion Disentanglement and Recomposition for Zero-Shot Motion Transfer](https://openaccess.thecvf.com/content/CVPR2025/papers/Gao_ConMo_Controllable_Motion_Disentanglement_and_Recomposition_for_Zero-Shot_Motion_Transfer_CVPR_2025_paper.pdf) | [🔗 Code](https://github.com/Andyplus1/ConMo) |
 | 2025.06 | [Track Any Object:A Granular Video Anomaly Detection Pipeline](https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_Track_Any_Anomalous_ObjectA_Granular_Video_Anomaly_Detection_Pipeline_CVPR_2025_paper.pdf) | [🌐Project page](https://tao-25.github.io/) |
+| 2025.06 | [Open-World Object Counting in Videos](https://arxiv.org/pdf/2506.15368) | [🔗 Code](https://github.com/niki-amini-naieni/CountVid/) |
 
 ### Audio-visual segmentation (AVS)
 | Release | Title | Code |
@@ -208,6 +209,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [HRMedSeg: Unlocking High-resolution Medical Image segmentation via Memory-efficient Attention Modeling](https://arxiv.org/pdf/2504.06205) | [🔗 Code](https://github.com/xq141839/HRMedSeg) |
 | 2025.04 | [Prompt Once, Segment Everything: Leveraging SAM 2 Potential for Infinite Medical Image Segmentation with a Single Prompt](https://www.mdpi.com/1999-4893/18/4/227) | [🔗 Code](https://github.com/i3uex/prompt_once_segment_everything_code) |
 | 2025.05 | [ReSurgSAM2: Referring Segment Anything in Surgical Video via Credible Long-term Tracking](https://arxiv.org/pdf/2505.08581) | [🔗 Code](https://github.com/jinlab-imvr/ReSurgSAM2) | 
+| 2025.06 | [MorphSAM: Learning the Morphological Prompts from Atlases for Spine Image Segmentation](https://arxiv.org/pdf/2506.13094) | NA |
+| 2025.06 | [SynPo: Boosting Training-Free Few-Shot Medical Segmentation via High-Quality Negative Prompts](https://arxiv.org/pdf/2506.15153) | [🌐Project page](https://liu-yufei.github.io/synpo-project-page/) |
 
 #### Other Medical Applications  
 | Release | Title | Code |
@@ -247,6 +250,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.11| [DED-SAM: Adapting Segment Anything Model 2 for Dual Encoder-Decoder Change Detection](https://ieeexplore.ieee.org/abstract/document/10741350) | NA |
 | 2025.01| [Prompt-Based Segmentation at Multiple Resolutions and Lighting Conditions using Segment Anything Model 2](https://arxiv.org/abs/2408.06970) | NA |
 | 2025.03| [Customized SAM 2 for Referring Remote Sensing Image Segmentation](https://arxiv.org/pdf/2503.07266) | NA |
+| 2025.05 | [InstructSAM: A Training-Free Framework for Instruction-Oriented Remote Sensing Object Recognition](https://arxiv.org/pdf/2505.15818) | [🔗 Code](https://github.com/VoyagerXvoyagerx/InstructSAM) |
+| 2025.06 | [Baltimore Atlas: FreqWeaver Adapter for Semi-supervised Ultra-high Spatial Resolution Land Cover Classification](https://arxiv.org/pdf/2506.15565) | NA |
+
 
 ### Mesh or Point Cloud Segmentation
 #### Mesh or Point Cloud Segmentation
@@ -281,6 +287,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [Augmented Unseen Region Alignment for Reference-based 360° Unbounded Scene Inpainting](https://arxiv.org/pdf/2502.05176) | [🌐Project page](https://kkennethwu.github.io/aurafusion360/) |
 | 2025.04 | [ FMLGS: Fast Multilevel Language Embedded Gaussians for Part-level Interactive Agents](https://arxiv.org/pdf/2504.08581) | NA |
 | 2025.06 | [ GENMANIP: LLM-driven Simulation for Generalizable Instruction-Following Manipulation](https://openaccess.thecvf.com/content/CVPR2025/papers/Gao_GENMANIP_LLM-driven_Simulation_for_Generalizable_Instruction-Following_Manipulation_CVPR_2025_paper.pdf) | [🌐Project page](https://genmanip.axi404.top/) |
+| 2025.05 | [Constructing a 3D Town from a Single Image](https://arxiv.org/pdf/2505.15765) | [🌐Project page](https://eric-ai-lab.github.io/3dtown.github.io/) |
+| 2025.06 | [GenMOJO: Robust Multi-Object 4D Generation for In-the-wild Videos](https://arxiv.org/pdf/2506.12716) | [🌐Project page](https://genmojo.github.io/) |
 
 
 
@@ -311,6 +319,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.11| [OVO-SLAM: Open-Vocabulary Online Simultaneous Localization and Mapping](https://arxiv.org/abs/2411.15043) | NA |
+| 2025.06 | [MCOO-SLAM: A Multi-Camera Omnidirectional Object SLAM System](https://arxiv.org/pdf/2506.15402) | NA |
 
 ### Light Field Segmentation
 | Release | Title | Code |
@@ -384,6 +393,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.05 | [LayerCraft: Enhancing Text-to-Image Generation with CoT Reasoning and Layered Object Integration](https://arxiv.org/pdf/2504.00010) | [🔗 Code](https://github.com/PeterYYZhang/LayerCraft) |
 | 2025.04 | [VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning](https://arxiv.org/pdf/2504.07960) | [🌐Project page](https://visualcloze.github.io/) |
 | 2025.04 | [M2Flow: A Motion Information Fusion Framework for Enhanced Unsupervised Optical Flow Estimation in Autonomous Driving](https://ojs.aaai.org/index.php/AAAI/article/view/32767) | NA |
+| 2025.05 | [Interspatial Attention for Efficient 4D Human Video Generation](https://arxiv.org/pdf/2505.15800) | [🌐Project page](https://dsaurus.github.io/isa4d/) |
+| 2025.06 | [Real-Time Per-Garment Virtual Try-On with Temporal Consistency for Loose-Fitting Garments](https://arxiv.org/pdf/2506.12348) | NA |
 
 
 ### Training Helper
@@ -392,7 +403,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.03 | [DINeMo: Learning Neural Mesh Models with no 3D Annotations](https://arxiv.org/pdf/2503.20220) | [🌐Project page](https://analysis-by-synthesis.github.io/DINeMo/) |
 | 2025.04 | [CoProSketch: Controllable and Progressive Sketch Generation with Diffusion Model](https://arxiv.org/pdf/2504.08259) | NA |
 | 2025.04 | [Aligning Anime Video Generation with Human Feedback](https://arxiv.org/pdf/2504.10044) | 🕒Soon |
-
+| 2025.06 | [HunyuanVideo-HOMA Generic Human-Object Interaction in Multimodal Driven Human Animation]() | [🌐Project page](https://anonymous.4open.science/w/homa-page-0FBE/) |
 
 
 ### Performance Evaluations 
@@ -401,12 +412,16 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.02| [Vector-Quantized Vision Foundation Models for Object-Centric Learning](https://arxiv.org/pdf/2502.20263)| NA|
 | 2025.04 | [WorldScore: A Unified Evaluation Benchmark for World Generation](https://arxiv.org/pdf/2504.00983) | [🌐Project page](https://haoyi-duan.github.io/WorldScore/)|
 | 2025.04 | [BIGS: Bimanual Category-agnostic Interaction Reconstruction from Monocular Videos via 3D Gaussian Splatting](https://arxiv.org/pdf/2504.09097) | NA |
+| 2025.05 | [ UWSAM: Segment Anything Model Guided
+ Underwater Instance Segmentation and A Large-scale Benchmark Dataset](https://arxiv.org/pdf/2505.15581) | [🔗 Code](https://github.com/LiamLian0727/UIIS10K) |
 
 #### Post Processing
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.03 | [Easi3R: Estimating Disentangled Motion from DUSt3R Without Training](https://arxiv.org/pdf/2503.24391) | [🌐Project page](https://easi3r.github.io/)|
 | 2025.04 | [Multi-identity Human Image Animation with Structural Video Diffusion](https://arxiv.org/pdf/2504.04126)| NA |
+| 2025.06 | [Vid-CamEdit: Video Camera Trajectory Editing with Generative Rendering from Estimated Geometry](https://arxiv.org/pdf/2506.13697) | [🌐Project page](https://cvlab-kaist.github.io/Vid-CamEdit/) |
+| 2025.06 | [Leader360V: A Large-scale, Real-world 360 Video Dataset for Multi-task Learning in Diverse Environments]() | NA |
 
 ### Robustness
 | Release | Title | Code |
@@ -429,3 +444,4 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.03| [JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse](https://arxiv.org/pdf/2503.16365)| [🌐Project page](https://craftjarvis.github.io/JarvisVLA/)|
 |2025.04| [MORPHEUS: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/pdf/2504.02918) | [🌐Project page](https://physics-from-video.github.io/morpheus-bench/)|
 | 2025.05 | [Air-Ground Collaboration for Language-Specified Missions in Unknown Environments](https://arxiv.org/pdf/2505.09108) | NA |
+| 2025.06 | [In Situ Detection and Measurement of Broccoli Heads Under Different Lighting Conditions Using Proximal Remote Sensing](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.70008) | NA |
