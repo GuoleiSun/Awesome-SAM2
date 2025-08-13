@@ -95,6 +95,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.05 | [SAMamba: Adaptive State Space Modeling with Hierarchical Vision for Infrared Small Target Detection](https://arxiv.org/pdf/2505.23214) | [🔗 Code](https://github.com/zhengshuchen/SAMamba) |
 | 2025.06 | [Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval](https://dl.acm.org/doi/pdf/10.1145/3731715.3733484) | [🔗 Code](https://github.com/AI-Application-andIntegration-Lab/MaTIR.) |
 | 2025.07 | [HFS-SAM2: Segment Anything Model 2 with High-Frequency Feature Supplementation for Camouflaged Object Detection](https://ieeexplore.ieee.org/document/11081899) | [🔗 Code](https://github.com/WZH0120/HFS-SAM2) |
+| 2025.08 | [DOMR:Establishing Cross-View Segmentation via Dense Object Matching](https://arxiv.org/pdf/2508.04050) | NA |
 
 
 
@@ -197,6 +198,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.05 | [Adapting Segment Anything 2 for Diabetic Retinopathy Lesion Segmentation](https://ieeexplore.ieee.org/document/10981048/) | NA |
 | 2025.07 | [Beyond Rigid AI: Towards Natural Human-Machine Symbiosis for Interoperative Surgical Assistance](https://arxiv.org/pdf/2507.23088) | NA |
 | 2025.07 | [Towards Affordable Tumor Segmentation and Visualization for 3D Breast MRI Using SAM2](https://arxiv.org/pdf/2507.23272) | NA |
+| 2025.08 | [Edge2Prompt: Modality-Agnostic Model for Out-of-Distribution Liver Segmentation](https://arxiv.org/pdf/2508.04305) | NA | 
+| 2025.08 | [F2PASeg: Feature Fusion for Pituitary Anatomy Segmentation in Endoscopic Surgery](https://arxiv.org/pdf/2508.05465) | [🔗 Code](https://github.com/paulili08/F2PASeg) |
 
 #### Medical Image Segmentation
 
@@ -225,6 +228,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [SynPo: Boosting Training-Free Few-Shot Medical Segmentation via High-Quality Negative Prompts](https://arxiv.org/pdf/2506.15153) | [🌐Project page](https://liu-yufei.github.io/synpo-project-page/) |
 | 2025.06 | [Detection of Breast Cancer Lumpectomy Margin with SAM-incorporated Forward-Forward Contrastive Learning](https://arxiv.org/pdf/2506.21006) | [🔗 Code](https://github.com/tbwa233/FFCL-SAM/) |
 | 2025.07 | [Speckle2Self: Self-Supervised Ultrasound Speckle Reduction Without Clean Data](https://arxiv.org/pdf/2507.06828) | 🕒Soon |
+| 2025.08 | [ Training-Free Breast Ultrasound Image Segmentation with Retrieval-based SAM2](https://ieeexplore.ieee.org/document/11113315) | NA | 
 
 #### Other Medical Applications  
 | Release | Title | Code |
@@ -237,7 +241,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [SYNTHFM: Training Modality-Agnostic Foundation Models for Medical Image Segmentation Without Real Medical Data](https://arxiv.org/pdf/2504.08177) | NA |
 | 2025.04 | [VoxelFeat: Voxel-wise foundation model features](https://openreview.net/pdf/9707b7d2fbd6be892e47b8acebf0f5e8c70c497c.pdf) | NA |
 | 2025.06 | [Leadership Assessment in Pediatric Intensive Care Unit Team Training](https://arxiv.org/pdf/2505.24389) | NA |
-
+| 2025.08 | [GM-ABS: Promptable Generalist Model Drives Active Barely Supervised Training in Specialist Model for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/document/11119675) | [🔗 Code](https://github.com/lemoshu/GM-ABS) |
+| 2025.08 | [Transgene-free generation of mouse post-gastrulation whole embryo models solely from naive ESCs and iPSCs](https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(25)00262-0) | NA |
 
 ### Graph Learning 
 | Release | Title | Code |
@@ -415,6 +420,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [XVerse: Consistent Multi-Subject Control of Identity and Semantic Attributes via DiT Modulation](https://arxiv.org/pdf/2506.21416) | [🌐Project page](https://bytedance.github.io/XVerse/) |
 | 2025.07 | [A New Dataset and Performance Benchmark for Real-time Spacecraft Segmentation in Onboard Flight Computers](https://arxiv.org/pdf/2507.10775)| [🔗 Code](https://github.com/RiceD2KLab/SWiM) |
 | 2025.07 | [Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation](https://arxiv.org/pdf/2507.22886)| [🌐Project page](https://henghuiding.com/OmniAVS/) |
+| 2025.08 | [MOSE: Complex Video Object Segmentation Dataset](https://arxiv.org/pdf/2508.05630) | [🌐Project page](https://mose.video/) |
 
 
 #### Used for Data Augmentation (/Tool)
@@ -471,6 +477,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
  | 2025.07 | [Amulti-modal dataset for insect biodiversity with imagery and DNA at the trap and individual level](https://arxiv.org/pdf/2507.06972) | [🔗 Code](https://github.com/uoguelph-mlrg/MassID45) |
  | 2025.07 | [enLLASD: An ensemble deep learning framework to automate derivation of lower-limb alignments for skeletal dysplasia](https://ieeexplore.ieee.org/document/11080497) | NA |
  | 2025.07 | [Semantic Segmentation of iPS Cells: Case Study on Model Complexity in Biomedical Imaging](https://arxiv.org/pdf/2507.21608) | NA |
+ | 2025.08 | [Segmenting the Complex and Irregular in Two-Phase Flows: A Real-World Empirical Study with SAM2](https://arxiv.org/pdf/2508.05227) | NA |
  
 #### Post Processing
 | Release | Title | Code |
