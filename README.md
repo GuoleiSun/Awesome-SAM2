@@ -77,6 +77,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [KAN-SAM: Kolmogorov-Arnold Network Guided Segment Anything Model for RGB-T Salient Object Detection](https://arxiv.org/pdf/2504.05878) | NA |
 | 2025.04 | [MovSAM: A Single-image Moving Object Segmentation Framework](https://arxiv.org/pdf/2504.06863) | [🔗 Code](https://github.com/IRMVLab/MovSAM)|
 | 2025.04 | [Few-Shot Adaptation of Grounding DINO for Agricultural Domain](https://arxiv.org/pdf/2504.07252) | NA |
+| 2025.08 | [LENS: Learning to Segment Anything with Unified Reinforced Reasoning](https://arxiv.org/pdf/2508.14153) | [🔗 Code](https://github.com/hustvl/LENS) |
 | 2025.10 | [SinkSAM-Net: Knowledge-driven self-supervised sinkhole segmentation using topographic priors and Segment Anything Model](https://www.sciencedirect.com/science/article/abs/pii/S0924271625002618) | [🌐Project page](https://osherr1996.github.io/SinkSAMNet/) |
 
 ##### Other Image Tasks
@@ -96,8 +97,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval](https://dl.acm.org/doi/pdf/10.1145/3731715.3733484) | [🔗 Code](https://github.com/AI-Application-andIntegration-Lab/MaTIR.) |
 | 2025.07 | [HFS-SAM2: Segment Anything Model 2 with High-Frequency Feature Supplementation for Camouflaged Object Detection](https://ieeexplore.ieee.org/document/11081899) | [🔗 Code](https://github.com/WZH0120/HFS-SAM2) |
 | 2025.08 | [DOMR:Establishing Cross-View Segmentation via Dense Object Matching](https://arxiv.org/pdf/2508.04050) | NA |
-
-
+| 2025.08 | [WeedSense: Multi-Task Learning for Weed Segmentation, Height Estimation, and Growth Stage Classification](https://arxiv.org/pdf/2508.14486) | [🌐Project page](https://weedsense.github.io/) |
 
 #### Video Segmentation
 
@@ -200,6 +200,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Towards Affordable Tumor Segmentation and Visualization for 3D Breast MRI Using SAM2](https://arxiv.org/pdf/2507.23272) | NA |
 | 2025.08 | [Edge2Prompt: Modality-Agnostic Model for Out-of-Distribution Liver Segmentation](https://arxiv.org/pdf/2508.04305) | NA | 
 | 2025.08 | [F2PASeg: Feature Fusion for Pituitary Anatomy Segmentation in Endoscopic Surgery](https://arxiv.org/pdf/2508.05465) | [🔗 Code](https://github.com/paulili08/F2PASeg) |
+| 2025.08 | [TSMS-SAM2: Multi-scale Temporal Sampling Augmentation and Memory-Splitting Pruning for Promptable Video Object Segmentation and Tracking in Surgical Scenarios](https://arxiv.org/pdf/2508.05829) | [🔗 Code](https://github.com/apple1986/TSMS-SAM2) |
+| 2025.08 | [SAM2Med3D: Leveraging video foundation models for 3D breast MRI segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0097849325001827) | Data Upon Request |
+
 
 #### Medical Image Segmentation
 
@@ -229,6 +232,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [Detection of Breast Cancer Lumpectomy Margin with SAM-incorporated Forward-Forward Contrastive Learning](https://arxiv.org/pdf/2506.21006) | [🔗 Code](https://github.com/tbwa233/FFCL-SAM/) |
 | 2025.07 | [Speckle2Self: Self-Supervised Ultrasound Speckle Reduction Without Clean Data](https://arxiv.org/pdf/2507.06828) | 🕒Soon |
 | 2025.08 | [ Training-Free Breast Ultrasound Image Segmentation with Retrieval-based SAM2](https://ieeexplore.ieee.org/document/11113315) | NA | 
+| 2025.08 | [CXR-ODDet: An Omni-Decoupled Multi-ClassLesion Localization Framework for Automatic ChestX-Ray Analysis](https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.70178) | NA |
+| 2025.08 | [LGFFM: A Localized and Globalized Frequency Fusion Model for Ultrasound Image Segmentation](https://ieeexplore.ieee.org/document/11129883) | [🔗 Code](https://github.com/Saillxl/LGFFM) |
 
 #### Other Medical Applications  
 | Release | Title | Code |
@@ -279,6 +284,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment](https://arxiv.org/pdf/2507.00659) | [🔗 Code](https://github.com/VictorZoo/LoD-Loc-v2) |
 | 2025.07 | [CSW-SAM: a cross-scale algorithm for very-high-resolution water body segmentation based on segment anything model 2](https://www.sciencedirect.com/science/article/pii/S0924271625002709) | NA |
 | 2025.07 | [A Fine Agricultural Flood Segmentation Model For HJ-2E S-band SAR Data](https://ieeexplore.ieee.org/document/11079287) | NA |
+| 2025.08 | [DeH4R: A Decoupled and Hybrid Method for Road Network Graph Extraction](https://arxiv.org/pdf/2508.13669) | [🔗 Code](https://github.com/7777777FAN/DeH4R) |
 
 ### Mesh or Point Cloud / 3D Processing
 #### Mesh or Point Cloud Segmentation
@@ -323,6 +329,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Defect segmentation and 3D reconstruction in concrete structures using SAM 2 and 3D Gaussian splatting](https://link.springer.com/article/10.1007/s13349-025-00993-z) | Upon Request |
 | 2025.07 | [Image-Guided Shape-from-Template Using Mesh Inextensibility Constraints](https://arxiv.org/pdf/2507.22699) | [🔗 Code](https://github.com/dvttran/nsft) |
 | 2025.07 | [MG-Mono: A Lightweight Multi-Granularity Method for Self-Supervised Monocular Depth Estimation](https://www.sciencedirect.com/science/article/abs/pii/S0031320325008842) | [🔗 Code](https://github.com/PENGFly2022/MGMono) |
+| 2025.08 | [Training-free automatic instance segmentation of girder bridge point cloud via large model fusion with reverse entity modelling verification](https://www.sciencedirect.com/science/article/abs/pii/S0926580525005242) | NA |
+| 2025.08 | [SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass](https://arxiv.org/pdf/2508.15769) | [🌐Project page](https://mengmouxu.github.io/SceneGen/) |
 
 ### Image or Video Generation & Editing
 | Release | Title | Code |
@@ -349,6 +357,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [OmniGen2: Exploration to Advanced Multimodal Generation](https://arxiv.org/pdf/2506.18871) | [🌐Project page](https://vectorspacelab.github.io/OmniGen2/) |
 | 2025.07 | [Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual Reasoning](https://arxiv.org/pdf/2507.01908) | [🔗 Code](https://github.com/hithqd/ReasonBrain) |
 | 2025.07 | [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction](https://arxiv.org/pdf/2507.23704) | NA |
+| 2025.08 | [NEP: Autoregressive Image Editing via Next Editing Token Prediction](https://arxiv.org/pdf/2508.06044) | [🌐Project page](https://nep-bigai.github.io/) |
 
 ### Simultaneous Localization and Mapping (SLAM / VO)
 | Release | Title | Code |
@@ -385,6 +394,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Object-Centric Mobile Manipulation through SAM2-Guided Perception and Imitation Learning](https://arxiv.org/pdf/2507.10899) | NA |
 | 2025.07 | [GraspGen: A Diffusion-based Framework for 6-DOF Grasping](https://arxiv.org/pdf/2507.13097) | [🌐Project page](https://graspgen.github.io/) |
 | 2025.07 | [RAGNet: Large-scale Reasoning-based Affordance Segmentation Benchmark towards General Grasping](https://arxiv.org/pdf/2507.23734) | [🔗 Code](https://github.com/wudongming97/AffordanceNet) |
+| 2025.08 | [Train Once, Deploy Anywhere: Realizing Data-Efficient Dynamic Object Manipulation](https://arxiv.org/pdf/2508.05829) | [🌐Project page](https://lizhuoling.github.io/GEM_webpage/) |
 
 ### Adaptation, Compression & Edge Applications
 | Release | Title | Code |
@@ -421,6 +431,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [A New Dataset and Performance Benchmark for Real-time Spacecraft Segmentation in Onboard Flight Computers](https://arxiv.org/pdf/2507.10775)| [🔗 Code](https://github.com/RiceD2KLab/SWiM) |
 | 2025.07 | [Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation](https://arxiv.org/pdf/2507.22886)| [🌐Project page](https://henghuiding.com/OmniAVS/) |
 | 2025.08 | [MOSE: Complex Video Object Segmentation Dataset](https://arxiv.org/pdf/2508.05630) | [🌐Project page](https://mose.video/) |
+| 2025.08 | [DreamVE: Unified Instruction-based Image and Video Editing](https://arxiv.org/pdf/2508.06080) | [🌐Project page](https://zj-binxia.github.io/DreamVE-ProjectPage/) |
 
 
 #### Used for Data Augmentation (/Tool)
