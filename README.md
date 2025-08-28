@@ -12,7 +12,9 @@ This repository aims to be the most comprehensive collection of materials (paper
 
 SAM2 represents a significant advancement in computer vision, extending the capabilities of the original SAM to handle both images and videos with unprecedented accuracy and efficiency. This curated list covers the rapidly expanding ecosystem of SAM2 applications across diverse domains - from medical imaging to robotics, from 3D reconstruction to video generation.
 
-🔥 **Why SAM2?** SAM2 has revolutionized segmentation tasks by:
+🔥 **Why SAM2?** 
+
+SAM2 has revolutionized segmentation tasks by:
 - Providing unified image and video segmentation capabilities
 - Enabling zero-shot generalization across domains
 - Offering efficient real-time processing
@@ -48,41 +50,41 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 
 
 ## Contents
-- [📚 Surveys & Reviews](#surveys--reviews)
-- [🎯 Traditional Segmentation Tasks](#traditional-segmentation)
-    - [🖼️ Image Segmentation](#image-segmentation)
+- [📚 Surveys & Reviews](#📚-surveys--reviews)
+- [🎯 Traditional Segmentation Tasks](#🎯-traditional-segmentation)
+    - [🖼️ Image Segmentation](#🖼️-image-segmentation)
         - [Segmentation Applications](#segmentation-applications)
         - [Other Image Tasks](#other-image-tasks)
-    - [🎬 Video Segmentation](#video-segmentation)
+    - [🎬 Video Segmentation](#🎬-video-segmentation)
         - [Referring/Reasoning Video Object Segmentation](#referringreasoning-video-object-segmentation)
         - [Other Video Tasks](#other-video-tasks)
-- [🏥 Medical Domain](#medical-domain)
+- [🏥 Medical Domain](#🏥-medical-domain)
     - [Medical Video & 3D Segmentation](#medical-video--3d-segmentation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Other Medical Applications](#other-medical-applications)
-- [🎭 Camouflaged Object Detection (COD)](#camouflaged-object-detection-cod)
+- [🎭 Camouflaged Object Detection (COD)](#🎭-camouflaged-object-detection-cod)
     - [Video COD](#video-cod)
     - [Image COD](#image-cod)
-- [🔊 Audio-visual Segmentation (AVS)](#audio-visual-segmentation-avs)
-- [🛰️ Remote Sensing](#remote-sensing)
-- [🧊 3D Processing & Point Clouds](#mesh-or-point-cloud--3d-processing)
-    - [3D Segmentation](#mesh-or-point-cloud-segmentation)
-    - [3D Reconstruction](#mesh-or-point-cloud-reconstruction)
-    - [Other 3D Applications](#other-applications)
-- [📊 Graph Learning](#graph-learning)
-- [🎨 Image/Video Generation & Editing](#image-or-video-generation--editing)
-- [🗺️ SLAM & Visual Odometry](#simultaneous-localization-and-mapping-slam--vo)
-- [💡 Light Field Segmentation](#light-field-segmentation)
-- [🤖 Robotics](#robotics)
-- [⚡ Efficiency & Edge Computing](#adaptation-compression--edge-applications)
-- [📖 Training & Learning](#training)
+- [🔊 Audio-visual Segmentation (AVS)](#🔊-audio-visual-segmentation-avs)
+- [🛰️ Remote Sensing](#🛰️-remote-sensing)
+- [🧊 3D Processing & Point Clouds](#🧊-3d-processing--point-clouds)
+    - [3D Segmentation](#3d-segmentation)
+    - [3D Reconstruction](#3d-reconstruction)
+    - [Other 3D Applications](#other-3d-applications)
+- [📊 Graph Learning](#📊-graph-learning)
+- [🎨 Image/Video Generation & Editing](#🎨-image-or-video-generation--editing)
+- [🗺️ SLAM & Visual Odometry](#🗺️-simultaneous-localization-and-mapping-slam--vo)
+- [💡 Light Field Segmentation](#💡-light-field-segmentation)
+- [🤖 Robotics](#🤖-robotics)
+- [⚡ Efficiency & Edge Computing](#⚡-adaptation-compression--edge-applications)
+- [📖 Training & Learning](#📖-training)
     - [Datasets](#datasets)
-    - [Data Augmentation Tools](#used-for-data-augmentation-tool)
+    - [Data Augmentation Tools](#🔄-used-for-data-augmentation-tool)
     - [Training Helpers](#training-helper)
-- [📊 Evaluation & Benchmarking](#performance-evaluations)
+- [📊 Evaluation & Benchmarking](#📊-performance-evaluations)
     - [Post Processing](#post-processing)
-- [🛡️ Robustness & Security](#robustness)
-- [🌟 Unique Applications](#unique-applicationsusage)
+- [🛡️ Robustness & Security](#🛡️-robustness)
+- [🌟 Unique Applications](#🌟-unique-applicationsusage)
 
 ## Papers/Projects
 
@@ -330,9 +332,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [DeH4R: A Decoupled and Hybrid Method for Road Network Graph Extraction](https://arxiv.org/pdf/2508.13669) | [🔗 Code](https://github.com/7777777FAN/DeH4R) |
 | 2025.10 | [SinkSAM-Net: Knowledge-driven self-supervised sinkhole segmentation using topographic priors and Segment Anything Model](https://www.sciencedirect.com/science/article/abs/pii/S0924271625002618) | [🌐Project page](https://osherr1996.github.io/SinkSAMNet/) |
 
-### 🧊 Mesh or Point Cloud / 3D Processing
+### 🧊 3D Processing & Point Clouds
 *Three-dimensional data processing, reconstruction, and analysis*
-#### Mesh or Point Cloud Segmentation
+#### 3D Segmentation
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.08| [Segment Any Mesh: Zero-shot Mesh Part Segmentation via Lifting Segment Anything 2 to 3D](https://arxiv.org/abs/2408.13679) | [🔗 Code](https://github.com/gtangg12/samesh) |
@@ -342,14 +344,14 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [DSM: Building A Diverse Semantic Map for 3D Visual Grounding](https://arxiv.org/pdf/2504.08307) | [🌐Project page](https://binicey.github.io/DSM/) |
 | 2025.07 | [GraphSeg: Constructing Segmented 3D Representations via Graph Edge Addition and Contraction](https://rss25-roboreps.github.io/papers/28_GraphSeg_Segmented_3D_Repre.pdf) | NA |
 
-#### Mesh or Point Cloud Reconstruction
+#### 3D Reconstruction
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.12 | [Deblur4DGS: 4D Gaussian Splatting from Blurry Monocular Videos](https://arxiv.org/abs/2410.17988) | [🌐Project page](https://deblur4dgs.github.io/) |
 | 2024.11| [Updating Dynamic 3D Scene Graphs from Egocentric Observations](https://arxiv.org/pdf/2411.19162)| [🌐Project page](https://behretj.github.io/LostAndFound/)| 
 | 2025.02| [Inter3D: A Benchmark and Strong Baseline for Human-Interactive 3D Object Reconstruction](https://arxiv.org/pdf/2502.14004)| [🔗 Code](https://github.com/Inter3D-ui/Inter3D?tab=readme-ov-file)|
 
-#### Other Applications
+#### Other 3D Applications
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.03| [LP-Gaussians: Learnable Parametric Gaussian Splatting for Efficient Dynamic Reconstruction of Single-View Scenes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888277) | [🌐Project page](https://github.com/LPGaussians)|
