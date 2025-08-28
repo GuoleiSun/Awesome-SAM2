@@ -50,45 +50,45 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 
 
 ## Contents
-- [📚 Surveys & Reviews](#📚-surveys--reviews)
-- [🎯 Traditional Segmentation Tasks](#🎯-traditional-segmentation)
-    - [🖼️ Image Segmentation](#🖼️-image-segmentation)
+- [📚 Surveys & Reviews](#surveys--reviews)
+- [🎯 Traditional Segmentation Tasks](#traditional-segmentation)
+    - [🖼️ Image Segmentation](#image-segmentation)
         - [Segmentation Applications](#segmentation-applications)
         - [Other Image Tasks](#other-image-tasks)
-    - [🎬 Video Segmentation](#🎬-video-segmentation)
+    - [🎬 Video Segmentation](#video-segmentation)
         - [Referring/Reasoning Video Object Segmentation](#referringreasoning-video-object-segmentation)
         - [Other Video Tasks](#other-video-tasks)
-- [🏥 Medical Domain](#🏥-medical-domain)
+- [🏥 Medical Domain](#medical-domain)
     - [Medical Video & 3D Segmentation](#medical-video--3d-segmentation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Other Medical Applications](#other-medical-applications)
-- [🎭 Camouflaged Object Detection (COD)](#🎭-camouflaged-object-detection-cod)
+- [🎭 Camouflaged Object Detection (COD)](#camouflaged-object-detection-cod)
     - [Video COD](#video-cod)
     - [Image COD](#image-cod)
-- [🔊 Audio-visual Segmentation (AVS)](#🔊-audio-visual-segmentation-avs)
-- [🛰️ Remote Sensing](#🛰️-remote-sensing)
-- [🧊 3D Processing & Point Clouds](#🧊-3d-processing--point-clouds)
+- [🔊 Audio-visual Segmentation (AVS)](#audio-visual-segmentation-avs)
+- [🛰️ Remote Sensing](#remote-sensing)
+- [🧊 3D Processing & Point Clouds](#3d-processing--point-clouds)
     - [3D Segmentation](#3d-segmentation)
     - [3D Reconstruction](#3d-reconstruction)
     - [Other 3D Applications](#other-3d-applications)
-- [📊 Graph Learning](#📊-graph-learning)
-- [🎨 Image/Video Generation & Editing](#🎨-image-or-video-generation--editing)
-- [🗺️ SLAM & Visual Odometry](#🗺️-simultaneous-localization-and-mapping-slam--vo)
-- [💡 Light Field Segmentation](#💡-light-field-segmentation)
-- [🤖 Robotics](#🤖-robotics)
-- [⚡ Efficiency & Edge Computing](#⚡-adaptation-compression--edge-applications)
-- [📖 Training & Learning](#📖-training)
+- [📊 Graph Learning](#graph-learning)
+- [🎨 Image/Video Generation & Editing](#image-or-video-generation--editing)
+- [🗺️ SLAM & Visual Odometry](#simultaneous-localization-and-mapping-slam--vo)
+- [💡 Light Field Segmentation](#light-field-segmentation)
+- [🤖 Robotics](#robotics)
+- [⚡ Efficiency & Edge Computing](#adaptation-compression--edge-applications)
+- [📖 Training & Learning](#training)
     - [Datasets](#datasets)
-    - [Data Augmentation Tools](#🔄-used-for-data-augmentation-tool)
+    - [Data Augmentation Tools](#used-for-data-augmentation-tool)
     - [Training Helpers](#training-helper)
-- [📊 Evaluation & Benchmarking](#📊-performance-evaluations)
+- [📊 Evaluation & Benchmarking](#performance-evaluations)
     - [Post Processing](#post-processing)
-- [🛡️ Robustness & Security](#🛡️-robustness)
-- [🌟 Unique Applications](#🌟-unique-applicationsusage)
+- [🛡️ Robustness & Security](#robustness)
+- [🌟 Unique Applications](#unique-applicationsusage)
 
 ## Papers/Projects
 
-### 📚 **Surveys & Reviews**
+### <a id="surveys--reviews"></a> 📚 **Surveys & Reviews**
 *Comprehensive overviews and systematic analyses of SAM2 applications across various domains*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -99,10 +99,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Survey on deep learning-based weakly supervised salient object detection](https://www.sciencedirect.com/science/article/abs/pii/S0957417425011194) | NA |
 <!-- | 2023.12 | [Large Scale Foundation Models for Intelligent Manufacturing Applications: A Survey](https://arxiv.org/abs/2312.06718) | [📖 Repo](https://github.com/NEUFS-MA/LSFMs-IM) | -->
 
-### 🎯 Traditional Segmentation
+### <a id="traditional-segmentation"></a> 🎯 Traditional Segmentation
 *Core image and video segmentation applications, including novel architectures and domain-specific adaptations*
 
-#### 🖼️ Image Segmentation
+#### <a id="image-segmentation"></a> 🖼️ Image Segmentation
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.10 | [Towards Natural Image Matting in the Wild via Real-Scenario Prior](https://arxiv.org/abs/2410.06593) | [🔗 Code](https://github.com/XiaRho/SEMat) |
@@ -142,7 +142,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [DOMR:Establishing Cross-View Segmentation via Dense Object Matching](https://arxiv.org/pdf/2508.04050) | NA |
 | 2025.08 | [WeedSense: Multi-Task Learning for Weed Segmentation, Height Estimation, and Growth Stage Classification](https://arxiv.org/pdf/2508.14486) | [🌐Project page](https://weedsense.github.io/) |
 
-#### 🎬 Video Segmentation
+#### <a id="video-segmentation"></a> 🎬 Video Segmentation
 *Temporal segmentation, object tracking, and video understanding applications*
 
 | Release | Title | Code |
@@ -199,23 +199,23 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Towards Blind Bitstream-corrupted Video Recovery: AVisual Foundation Model-driven Framework](https://arxiv.org/pdf/2507.22481) | NA |
 | 2025.07 | [SAMITE: Position Prompted SAM2 with Calibrated Memory for Visual Object Tracking](https://arxiv.org/pdf/2507.21732) | [🔗 Code](https://github.com/Sam1224/SAMITE) |
 
-### 🔊 Audio-visual segmentation (AVS)
+### <a id="audio-visual-segmentation-avs"></a> 🔊 Audio-visual segmentation (AVS)
 *Multi-modal approaches combining audio and visual information for segmentation*
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.02| [Audio visual segmentation through text embeddings](https://arxiv.org/pdf/2502.16359) | NA|
 
-### 📊 Graph Learning 
+### <a id="graph-learning"></a> 📊 Graph Learning 
 *Scene graph generation and graph-based reasoning with SAM2* 
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.03 | [Universal Scene Graph Generation](https://arxiv.org/pdf/2503.15005) | [🌐Project page](https://sqwu.top/USG/)|
 
 
-### 🏥 Medical Domain
+### <a id="medical-domain"></a> 🏥 Medical Domain
 *Healthcare applications including surgery, diagnostics, and biomedical research*
 
-#### Medical Video & 3D Segmentation
+#### <a id="medical-video--3d-segmentation"></a> Medical Video & 3D Segmentation
 
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -252,7 +252,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [SAM2Med3D: Leveraging video foundation models for 3D breast MRI segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0097849325001827) | Data Upon Request |
 
 
-#### Medical Image Segmentation
+#### <a id="medical-image-segmentation"></a> Medical Image Segmentation
 
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -284,7 +284,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [LGFFM: A Localized and Globalized Frequency Fusion Model for Ultrasound Image Segmentation](https://ieeexplore.ieee.org/document/11129883) | [🔗 Code](https://github.com/Saillxl/LGFFM) |
 | 2025.04 | [Semi-automated segmentation of magnitude images in 4D flow MR scans using segment anything model 2 (SAM 2)](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13410/1341026/Semi-automated-segmentation-of-magnitude-images-in-4D-flow-MR/10.1117/12.3051724.short) | NA |
 
-#### Other Medical Applications  
+#### <a id="other-medical-applications"></a> Other Medical Applications  
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.03| [Flip Learning: Weakly supervised erase to segment nodules in breast ultrasound](https://www.sciencedirect.com/science/article/abs/pii/S1361841525000994) | NA | 
@@ -298,9 +298,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [GM-ABS: Promptable Generalist Model Drives Active Barely Supervised Training in Specialist Model for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/document/11119675) | [🔗 Code](https://github.com/lemoshu/GM-ABS) |
 | 2025.08 | [Transgene-free generation of mouse post-gastrulation whole embryo models solely from naive ESCs and iPSCs](https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(25)00262-0) | NA |
 
-### 🎭 Camouflaged Object Detection (COD)
+### <a id="camouflaged-object-detection-cod"></a> 🎭 Camouflaged Object Detection (COD)
 *Detecting and segmenting objects that blend with their surroundings*
-#### Video COD
+#### <a id="video-cod"></a> Video COD
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.07| [Evaluating SAM2's Role in Camouflaged Object Detection: From SAM to SAM2](https://arxiv.org/abs/2407.21596) | [🔗 Code](https://github.com/luckybird1994/SAMCOD) |
@@ -308,14 +308,14 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.03 | [CamSAM2: Segment Anything Accurately in Camouflaged Videos](https://arxiv.org/pdf/2503.19730) | [🔗 Code](https://github.com/zhoustan/CamSAM2)|
 | 2025.04 | [CamoSAM2: Motion-Appearance Induced Auto-Refining Prompts for Video Camouflaged Object Detection](https://arxiv.org/pdf/2504.00375) | NA |
 
-#### Image COD
+#### <a id="image-cod"></a> Image COD
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.08| [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) | [🔗 Code](https://github.com/WZH0120/SAM2-UNet) |
 | 2024.08| [SAM2-Adapter: Evaluating & Adapting Segment Anything 2 in Downstream Tasks: Camouflage, Shadow, Medical Image Segmentation, and More](https://arxiv.org/abs/2408.04579) | [🔗 Code](http://tianrun-chen.github.io/SAM-Adaptor/) |
 | 2025.07 | [HFS-SAM2: Segment Anything Model 2 with High-Frequency Feature Supplementation for Camouflaged Object Detection](https://ieeexplore.ieee.org/document/11081899) | [🔗 Code](https://github.com/WZH0120/HFS-SAM2) |
 
-### 🛰️ Remote Sensing
+### <a id="remote-sensing"></a> 🛰️ Remote Sensing
 *Satellite imagery analysis, environmental monitoring, and geospatial applications*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -332,9 +332,9 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [DeH4R: A Decoupled and Hybrid Method for Road Network Graph Extraction](https://arxiv.org/pdf/2508.13669) | [🔗 Code](https://github.com/7777777FAN/DeH4R) |
 | 2025.10 | [SinkSAM-Net: Knowledge-driven self-supervised sinkhole segmentation using topographic priors and Segment Anything Model](https://www.sciencedirect.com/science/article/abs/pii/S0924271625002618) | [🌐Project page](https://osherr1996.github.io/SinkSAMNet/) |
 
-### 🧊 3D Processing & Point Clouds
+### <a id="3d-processing--point-clouds"></a> 🧊 3D Processing & Point Clouds
 *Three-dimensional data processing, reconstruction, and analysis*
-#### 3D Segmentation
+#### <a id="3d-segmentation"></a> 3D Segmentation
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.08| [Segment Any Mesh: Zero-shot Mesh Part Segmentation via Lifting Segment Anything 2 to 3D](https://arxiv.org/abs/2408.13679) | [🔗 Code](https://github.com/gtangg12/samesh) |
@@ -344,14 +344,14 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [DSM: Building A Diverse Semantic Map for 3D Visual Grounding](https://arxiv.org/pdf/2504.08307) | [🌐Project page](https://binicey.github.io/DSM/) |
 | 2025.07 | [GraphSeg: Constructing Segmented 3D Representations via Graph Edge Addition and Contraction](https://rss25-roboreps.github.io/papers/28_GraphSeg_Segmented_3D_Repre.pdf) | NA |
 
-#### 3D Reconstruction
+#### <a id="3d-reconstruction"></a> 3D Reconstruction
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.12 | [Deblur4DGS: 4D Gaussian Splatting from Blurry Monocular Videos](https://arxiv.org/abs/2410.17988) | [🌐Project page](https://deblur4dgs.github.io/) |
 | 2024.11| [Updating Dynamic 3D Scene Graphs from Egocentric Observations](https://arxiv.org/pdf/2411.19162)| [🌐Project page](https://behretj.github.io/LostAndFound/)| 
 | 2025.02| [Inter3D: A Benchmark and Strong Baseline for Human-Interactive 3D Object Reconstruction](https://arxiv.org/pdf/2502.14004)| [🔗 Code](https://github.com/Inter3D-ui/Inter3D?tab=readme-ov-file)|
 
-#### Other 3D Applications
+#### <a id="other-3d-applications"></a> Other 3D Applications
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.03| [LP-Gaussians: Learnable Parametric Gaussian Splatting for Efficient Dynamic Reconstruction of Single-View Scenes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888277) | [🌐Project page](https://github.com/LPGaussians)|
@@ -379,7 +379,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [Training-free automatic instance segmentation of girder bridge point cloud via large model fusion with reverse entity modelling verification](https://www.sciencedirect.com/science/article/abs/pii/S0926580525005242) | NA |
 | 2025.08 | [SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass](https://arxiv.org/pdf/2508.15769) | [🌐Project page](https://mengmouxu.github.io/SceneGen/) |
 
-### 🎨 Image or Video Generation & Editing
+### <a id="image-or-video-generation--editing"></a> 🎨 Image or Video Generation & Editing
 *Creative applications including content generation, editing, and artistic tools*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -406,7 +406,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction](https://arxiv.org/pdf/2507.23704) | NA |
 | 2025.08 | [NEP: Autoregressive Image Editing via Next Editing Token Prediction](https://arxiv.org/pdf/2508.06044) | [🌐Project page](https://nep-bigai.github.io/) |
 
-### 🗺️ Simultaneous Localization and Mapping (SLAM / VO)
+### <a id="simultaneous-localization-and-mapping-slam--vo"></a> 🗺️ Simultaneous Localization and Mapping (SLAM / VO)
 *Navigation, mapping, and localization applications*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -414,13 +414,13 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [MCOO-SLAM: A Multi-Camera Omnidirectional Object SLAM System](https://arxiv.org/pdf/2506.15402) | NA |
 | 2025.07 | [VISTA: Monocular Segmentation-Based Mapping for Appearance and View-Invariant Global Localization](https://arxiv.org/pdf/2507.11653) | NA |
 
-### 💡 Light Field Segmentation
+### <a id="light-field-segmentation"></a> 💡 Light Field Segmentation
 *Advanced imaging techniques and multi-dimensional visual processing*
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2024.11| [Segment Anything in Light Fields for Real-Time Applications via Constrained Prompting](https://arxiv.org/abs/2411.13840) | [🔗 Code](https://roboticimaging.org/Projects/LFSAM/) |
 
-### 🤖 Robotics
+### <a id="robotics"></a> 🤖 Robotics
 *Autonomous systems, manipulation, navigation, and human-robot interaction*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -447,7 +447,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [RAGNet: Large-scale Reasoning-based Affordance Segmentation Benchmark towards General Grasping](https://arxiv.org/pdf/2507.23734) | [🔗 Code](https://github.com/wudongming97/AffordanceNet) |
 | 2025.08 | [Train Once, Deploy Anywhere: Realizing Data-Efficient Dynamic Object Manipulation](https://arxiv.org/pdf/2508.05829) | [🌐Project page](https://lizhuoling.github.io/GEM_webpage/) |
 
-### ⚡ Adaptation, Compression & Edge Applications
+### <a id="adaptation-compression--edge-applications"></a> ⚡ Adaptation, Compression & Edge Applications
 *Efficiency optimizations, model compression, and deployment on resource-constrained devices*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -456,10 +456,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.04 | [Parameter-Free Fine-tuning via Redundancy Elimination for Vision Foundation Models](https://arxiv.org/pdf/2504.08915) | NA |
 | 2025.05 | [Deploying Vision Foundation AI Models on the Edge. The SAM2 Experience](https://people.ac.upc.edu/rtous/publications/conf_2025iwann.pdf) | NA |
 
-## 📖 Training
+## <a id="training"></a> 📖 Training
 *Resources for model training, datasets, and learning frameworks*
 
-### Datasets 
+### <a id="datasets"></a> Datasets 
 *Curated datasets and benchmarks for SAM2 training and evaluation* 
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -489,7 +489,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [DreamVE: Unified Instruction-based Image and Video Editing](https://arxiv.org/pdf/2508.06080) | [🌐Project page](https://zj-binxia.github.io/DreamVE-ProjectPage/) |
 
 
-#### 🔄 Used for Data Augmentation (/Tool)
+#### <a id="used-for-data-augmentation-tool"></a> 🔄 Used for Data Augmentation (/Tool)
 *Tools and methods for data synthesis, augmentation, and preprocessing*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -517,7 +517,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data](https://arxiv.org/pdf/2507.07095) | [🔗 Code](https://github.com/VankouF/MotionMillion-Codes) |
 | 2025.07 | [ RCG: Safety-Critical Scenario Generation for Robust Autonomous Driving via Real-World Crash Grounding](https://arxiv.org/pdf/2507.10749) | 🕒Soon |
 
-### 🛠️ Training Helper
+### <a id="training-helper"></a> 🛠️ Training Helper
 *Supporting tools and frameworks for model training and fine-tuning*
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -531,7 +531,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.07 | [Scalable Multi-Task Reinforcement Learning for Generalizable Spatial Intelligence in Visuomotor Agents](https://arxiv.org/pdf/2507.23698) | [🔗 Code](https://github.com/CraftJarvis/ROCKET-3/) |
 
 
-### 📊 Performance Evaluations 
+### <a id="performance-evaluations"></a> 📊 Performance Evaluations 
 *Benchmarking, evaluation metrics, and comparative studies* 
 | Release | Title | Code |
 | :--- | :--- | :---: |
@@ -548,7 +548,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
  | 2025.07 | [Semantic Segmentation of iPS Cells: Case Study on Model Complexity in Biomedical Imaging](https://arxiv.org/pdf/2507.21608) | NA |
  | 2025.08 | [Segmenting the Complex and Irregular in Two-Phase Flows: A Real-World Empirical Study with SAM2](https://arxiv.org/pdf/2508.05227) | NA |
  
-#### Post Processing
+#### <a id="post-processing"></a> Post Processing
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.03 | [Easi3R: Estimating Disentangled Motion from DUSt3R Without Training](https://arxiv.org/pdf/2503.24391) | [🌐Project page](https://easi3r.github.io/)|
@@ -557,13 +557,13 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.06 | [Leader360V: A Large-scale, Real-world 360 Video Dataset for Multi-task Learning in Diverse Environments]() | NA |
 | 2025.07 | [Robust and Efficient 3D Gaussian Splatting for Urban Scene Reconstruction](https://arxiv.org/pdf/2507.23006) | [🌐Project page](https://yzslab.github.io/REUrbanGS/) |
 
-### 🛡️ Robustness
+### <a id="robustness"></a> 🛡️ Robustness
 *Security, adversarial robustness, and reliability studies*
 | Release | Title | Code |
 | :--- | :--- | :---: |
 | 2025.04 | [Robust SAM: On the Adversarial Robustness of Vision Foundation Models](https://ojs.aaai.org/index.php/AAAI/article/view/32616) | NA |
 
-### 🌟 Unique Applications/Usage
+### <a id="unique-applicationsusage"></a> 🌟 Unique Applications/Usage
 *Novel and creative applications that don't fit traditional categories*
 | Release | Title | Code |
 | :--- | :--- | :---: |
