@@ -305,6 +305,8 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.09 | [Evaluating the Efficacy of Mebendazole Repurposing for Ovarian Cancer Therapy Using Optical Coherence Tomography](https://pubmed.ncbi.nlm.nih.gov/40922675/) | NA |
 | 2025.09 | [Evaluation of Radio Frequency Ablation in Human Left Atrial Tissues for Atrial Fibrillation Using Optical Coherence Tomography](https://opticapublishing.figshare.com/ndownloader/files/57835696) | NA |
 | 2025.09 | [Abundance of Maternal Mitochondrial Genome Is Dispensable up to the Mitochondrial Genome Activation in Post-Implantation Embryos](https://pubmed.ncbi.nlm.nih.gov/40922707/) | NA |
+| 2025.09 | [The Evaluation of a Deep Learning Approach to Automatic Segmentation of Teeth and Shade Guides for Tooth Shade Matching Using the SAM2 Algorithm](https://www.mdpi.com/2306-5354/12/9/959) | NA | 
+| 2025.09 | [Neck-focused Remote Photoplethysmography (rPPG): A comparative study using clinical data and the PyVHR framework](https://www.sciencedirect.com/science/article/pii/S0010482525013083) | NA |
 
 ### <a id="camouflaged-object-detection-cod"></a> 🎭 Camouflaged Object Detection (COD)
 *Detecting and segmenting objects that blend with their surroundings*
@@ -322,6 +324,7 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2024.08| [SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870) | [🔗 Code](https://github.com/WZH0120/SAM2-UNet) |
 | 2024.08| [SAM2-Adapter: Evaluating & Adapting Segment Anything 2 in Downstream Tasks: Camouflage, Shadow, Medical Image Segmentation, and More](https://arxiv.org/abs/2408.04579) | [🔗 Code](http://tianrun-chen.github.io/SAM-Adaptor/) |
 | 2025.07 | [HFS-SAM2: Segment Anything Model 2 with High-Frequency Feature Supplementation for Camouflaged Object Detection](https://ieeexplore.ieee.org/document/11081899) | [🔗 Code](https://github.com/WZH0120/HFS-SAM2) |
+| 2025.09 | [SLENet: A Guidance-Enhanced Network for Underwater Camouflaged Object Detection](https://arxiv.org/pdf/2509.03786) | NA |
 
 ### <a id="remote-sensing"></a> 🛰️ Remote Sensing
 *Satellite imagery analysis, environmental monitoring, and geospatial applications*
@@ -340,7 +343,10 @@ This repo aims to include materials (papers, codes, slides) about [SAM2](https:/
 | 2025.08 | [DeH4R: A Decoupled and Hybrid Method for Road Network Graph Extraction](https://arxiv.org/pdf/2508.13669) | [🔗 Code](https://github.com/7777777FAN/DeH4R) |
 | 2025.09 | [PeftCD: Leveraging Vision Foundation Models with Parameter-Efficient Fine-Tuning for Remote Sensing Change Detection](https://arxiv.org/pdf/2509.09572v1) | [🔗 Code](https://github.com/dyzy41/PeftCD) | 
 | 2025.09 | [An Automatic Sample Augmentation Method for Paddy Rice Mapping Based on Segment Anything Model and Phenological Features—A Case Study in Southwest China](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11152514) | NA |
+| 2025.09 | [SOPSeg: Prompt-based Small Object Instance Segmentation in Remote SensingImagery](https://arxiv.org/pdf/2509.03002) | NA |
+| 2025.09 | [BiSAM-CD: Zero-Shot Remote Sensing Change Detection via Bidirectional Temporal Memory in SAM2](https://ieeexplore.ieee.org/document/11150452)| [🔗 Code](https://github.com/KimotaQY/BiSAM-CD) |
 | 2025.10 | [SinkSAM-Net: Knowledge-driven self-supervised sinkhole segmentation using topographic priors and Segment Anything Model](https://www.sciencedirect.com/science/article/abs/pii/S0924271625002618) | [🌐Project page](https://osherr1996.github.io/SinkSAMNet/) |
+
 
 
 ### <a id="3d-processing--point-clouds"></a> 🧊 3D Processing & Point Clouds
